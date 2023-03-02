@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+	color:#EEEEEE;
+}
+.main{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    
+}
+.header{
+    width: 100vw;
+    height: 90vh;
+    background-color: #383444;
+}
+/* ------------------- Nav Bar --------------------- */
+.navbar{
+    display: flex;
+    float: right;
+    /* justify-content: space-between; */
+    width: 90vw;
+    font-weight: bold;
+    
+    
+}
+.logo{
+    display: flex;
+    height: 10vh;
+    width: auto;
+    align-items: center;
+    
+}
+.logo a {
+    text-decoration: none;
+    
+}
+.logo-img1{
+    height: 1.5em;
+}
+.logo-name{
+    font-size: 1.5em;
+    padding: 5px;
+}
+.logo-name i{
+    color: #cca552;
+    font-size: 0.85em;
+}
+.mid{
+    
+    height: 10vh;
+    position: relative;
+    left: 7%;
+    width: 10vw;
+}
+.mid ul{
+    
+    display: flex;
+    list-style: none;
+}
+
+.mid ul li{
+    padding: 20px;    
+}
+.mid ul li a{
+    text-decoration: none;    
+    
+}
+
+.menu{
+    
+    height: 10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    left: 60%;
+    width: 10vw;
+    color: black;
+    
+}
+.menu a{
+    color: black;
+}
+
+/* ------ CIRCLE ----*/
+
+.circle{
+    position: relative;
+    z-index: 1;
+    right: 30%;
+    height: 70vh;
+    width: 70vh;
+    background-color: #302c34;
+    border-radius: 50%;
+}
+/*------------- body front ---------*/
+
+.info{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-heading{
+    margin-top: 44px;
+}
+
+.info-heading h4{
+    font-size: 2em;
+    color:#BBBBBB;
+
+    
+}
+
+.info-heading h1{
+    font-size: 6.5em;
+}
+
+/*------- LINE ------------ */
+.line{
+    width: 30%;
+    height: 3px;
+    margin: 10px 0px;
+    background-color: #cca552;
+}
+
+.info-text1{
+    position: relative;
+    z-index: 2;
+    /* right: -20px; */
+    left: 3%;
+    width: 49%;
+    height: 300px;
+    /*background-color: rgb(108, 216, 121);*/
+}
+
+.info-pera{
+    width: 59%;
+    font-size: 1.5em;
+    color:#BBBBBB;
+}
+.info-pera p {
+    color:#BBBBBB;
+}
+.info-text2{
+    position: relative;
+    
+    
+}
+.info-text2 img{
+    position: relative;
+    z-index: 3;
+    /* left: -33%; */
+    right: 32%;
+    width: 100%;
+    height: auto;
+    bottom: 46%;
+}
+
+.info-text3{
+    position: relative;
+    z-index: 3;
+    top: 7vh;
+    right: 17%;
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(44, 186, 51); */
+}
+.text-box1{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.text-box2{
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 17px;
+}
+.text-box3{
+    margin-bottom: 10px;
+    display: flex;
+	color: #cca552 ;
+}
+.text-box3 p{ 
+	color: #cca552 ;
+}
+.text-box3 i{
+    margin-left: 11px;
+	color: #cca552 ;
+}
+.text-box4 {
+    align-items: center;
+    display: flex;
+    
+}
+.icon{
+    
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 25px;
+    border: 1px solid #514d5c;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s;
+	background-color:#514d5c;
+}
+.icon i{
+    margin: 9px;
+    font-size: 1.5em;
+	color: #cca552 ;
+}
+/* ------------------- Post Logo --------------------- */
+.log{
+    align-self: center;
+    position: absolute;
+    z-index: 4;
+    top: 80vh;
+    width: 80vw;
+    height: 20vh;
+    background-color: #514d5c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo1{
+    width: 20%;
+    height: 9vh;
+    background-color: #302c34;
+    display: flex;
+    justify-content: center;
+}
+.logo1 img{
+    width: auto;
+    height: 8vh;
+}
+.logo2 img{
+   width: auto;
+    height: 7vh;
+   
+    /* margin-left: 13px; */
+    margin: 10px 0px 15px 9px;
+}
+.logo4 img{
+  width: auto;
+    height: 6vh;
+    align-self: center;
+}
+.logo2{
+       width: 20%;
+    height: 9vh;
+    background-color: #302c34;
+    display: flex;
+    justify-content: center;
+}
+.logo3{
+    width: 20%;
+    height: 9vh;
+    background-color: #302c34;
+    display: flex;
+    justify-content: center;
+}
+.logo3 img{
+	 width: auto;
+    height: 7vh;
+    align-self: center;
+    /* margin-left: 13px; */
+    margin: 10px 0px 15px 9px;
+}
+.logo4{
+    width: 20%;
+    height: 9vh;
+    background-color: #302c34;
+    display: flex;
+    justify-content: center;
+}
+
+.post{
+    width: 100vw;
+    height: 130vh;
+    background-color: #302c34;
+}
+.services{
+    display: flex;
+    /* margin: 15px; */
+    margin-top: 19vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    
+}
+.box1{
+    height: 50vh;
+    width: 25%;
+    
+}
+.box1 h1{
+    
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.box1-pera{
+    width: 88%;
+    margin-top: 21px;
+    line-height: 21px;
+	
+}
+
+.box1-pera p{
+    color:#BBBBBB;
+}
+/* ------------- SUB BOX OF SERVICE BOX 1 ------------ */
+.sub-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 14px;
+    flex-direction: column;
+    
+}
+
+
+
+.clm1{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clm2{
+    margin-top: 5px;
+    height: auto;
+    display: flex;
+    width: 70;
+    justify-content: space-between;
+}
+.sub-box1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub-box1 p , .sub-box2 p {
+	color: #BBBBBB ; 
+}
+h2{
+    color: #cca552;
+}
+.sub-box2{
+    
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    height: auto;
+    width: 40%;
+    
+}
+.box2-clm{
+    width: 100%;
+    height: auto;
+    border-bottom: 0.1em solid ;
+	border-bottom-color: gray;
+    display: flex;
+    align-items: center;
+}
+.box2-clm img{
+    width: 130px;
+    height: auto;
+    /* margin-bottom: 10px; */
+    margin: 12px 0px 12px 0px;
+}
+.ui-text{
+    width: 100%;
+    margin: 10px 14px;
+}
+.ui-pera{
+	margin-top: 8px;
+}	
+.ui-pera p { 
+	color: #BBBBBB ; 
+}
+.arro i{
+    float: right;
+}
+/*--------------- 3RD SECTION FOR CLM POST------*/
+
+.thrd-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: #383444;
+    display: flex;
+    justify-content: center;
+}
+
+.sec{
+    width: 80vw;
+    height: 30vh;
+    /* background-color: #464648; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 27vh;
+    align-self: center;
+    justify-self:center  ;
+}
+.sec-post{
+    height: 40vh;
+    width: 30%;
+    background-color: #514d5c;
+    
+}
+
+.sec-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #302c34;
+    margin: 20px 20px;
+}
+.sec-logo img{
+    width: 30px;
+    margin: 5px;
+    height: auto;
+}
+.sec-heading h3{
+    margin: 10px 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.sec-pera{
+    height: auto;
+    width: 70%;
+    margin: 10px 20px;
+    line-height: 24px;
+    
+}
+.sec-pera p {
+    color:#BBBBBB;
+}
